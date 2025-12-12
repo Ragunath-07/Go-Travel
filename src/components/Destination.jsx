@@ -14,7 +14,7 @@ function Destinantion() {
   ]
 
   return (
-    <section className='flex flex-col gap-5 my-16  transition-all duration-500' id='destination'>
+    <section className='flex flex-col gap-5 my-16  transition-all duration-500 scroll-mt-16' id='destination'>
       <h1 className='text-center text-3xl font-bold lg:text-4xl'>Find Your Best <br /> Destination</h1>
 
       <div className='flex justify-center'>

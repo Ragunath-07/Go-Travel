@@ -25,23 +25,23 @@ function Testimonial() {
   }, []);
 
   return (
-    <section id='testimonials'>
+    <section id='testimonials' className='scroll-mt-16'>
       <h1 className='text-center text-3xl font-bold lg:text-4xl'>What Are <br /> They Saying?</h1>
 
       <div className='flex justify-center'>
         <div className='mx-10 my-10 max-w-sm flex flex-col sm:max-w-lg lg:max-w-4xl lg:flex-row lg:h-[400px] lg:items-stretch'>
 
           {/* LEFT IMAGE */}
-          <div className='lg:w-full h-full'>
+          <div className='lg:w-full h-full lg:rounded-l-3xl overflow-hidden'>
             <img 
               src={testimonial} 
               alt="" 
-              className='w-full h-full object-cover rounded-t-2xl lg:rounded-t-none lg:rounded-l-2xl'
+              className='w-full h-full object-cover rounded-t-3xl lg:rounded-t-none'
             />
           </div>
 
           {/* SLIDER */}
-          <div className='overflow-hidden w-full h-full lg:w-full rounded-b-2xl lg:rounded-b-none lg:rounded-r-2xl'>
+          <div className='overflow-hidden w-full h-full lg:w-full rounded-b-3xl lg:rounded-b-none lg:rounded-r-3xl '>
 
             <div 
               className='flex transition-transform duration-500 h-full'

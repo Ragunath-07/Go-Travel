@@ -5,7 +5,7 @@ import join_img from '../assets/images/join-img.png'
 function Contact() {
 
   return (
-    <section className='my-16 mx-12 flex flex-col items-center gap-10 lg:flex-row lg:justify-center'>
+    <section className='my-16 mx-12 flex flex-col items-center gap-10 lg:flex-row lg:justify-center scroll-mt-16' id='contact'>
 
       <div className='flex flex-col items-center gap-5 text-center'>
 

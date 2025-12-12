@@ -27,15 +27,15 @@ function Home() {
   }, []);
 
   return (
-    <section className='mx-10 my-14 flex flex-col gap-5 items-center transition-all duration-500 lg:flex lg:flex-row justify-center lg:items-center'
+    <section className='mx-10 my-14 flex flex-col gap-5 items-center transition-all duration-500 scroll-mt-16 lg:flex lg:flex-row justify-center lg:items-center'
       id='home'
     >
 
       {/* Home data */}
       <div className='text-black font-medium text-center flex flex-col gap-5 items-center w-96'>
 
-        <h1 className='text-5xl font-bold lg:text-5xl'>Travel <br /> Around <br /> The World</h1>
-        <p>Explore the best beautiful tourist spots in
+        <h1 className='text-4xl font-bold lg:text-5xl'>Travel <br /> Around <br /> The World</h1>
+        <p className='text-sm'>Explore the best beautiful tourist spots in
           the countries and see the world on all your
           amazing adventures.</p>
 
@@ -43,7 +43,7 @@ function Home() {
 
 
       {/* Slider */}
-      <div className="relative mt-5 overflow-hidden rounded-[40px] max-w-sm max-h-fit sm:max-w-lg lg:max-w-xl">
+      <div className="relative mt-5 overflow-hidden rounded-3xl max-w-lg max-h-fit sm:max-w-lg lg:max-w-xl">
 
         <div className="flex transition-transform duration-500 mt-5"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -52,7 +52,7 @@ function Home() {
             <img key={i}
               src={img}
               alt={`slide-${i}`}
-              className="w-full h-full rounded-[40px]"
+              className="w-full h-full rounded-3xl"
             />
           ))}
         </div>

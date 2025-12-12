@@ -15,7 +15,7 @@ function Gallery() {
   ]
 
   return (
-    <section className='my-10 mx-5 transition-all duration-500' id='gallery'>
+    <section className='my-10 mx-5 transition-all duration-500 scroll-mt-16' id='gallery'>
       <h1 className='text-center text-3xl font-bold lg:text-4xl'>Gallery</h1>
 
       <div className='flex justify-center'>
