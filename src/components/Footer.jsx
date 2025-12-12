@@ -4,7 +4,7 @@ import logo_white from '../assets/images/logo-white.svg'
 function Footer() {
 
   return (
-    <footer className='bg-black text-white py-8'>
+    <footer className='bg-black text-white py-8 scroll-mt-16'>
       <div className='flex items-center justify-between mx-8'>
         <div className='flex gap-1 font-semibold'>
         <img src={logo_white} alt="logo" className='w-6 lg:w-8' />
