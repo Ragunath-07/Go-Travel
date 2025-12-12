@@ -29,7 +29,7 @@ function Testimonial() {
       <h1 className='text-center text-3xl font-bold lg:text-4xl'>What Are <br /> They Saying?</h1>
 
       <div className='flex justify-center'>
-        <div className='mx-10 my-10 max-w-sm flex flex-col sm:max-w-lg lg:max-w-4xl lg:flex-row lg:h-[400px] lg:items-stretch'>
+        <div className='my-10 max-w-xs flex flex-col sm:max-w-md lg:max-w-4xl lg:flex-row lg:h-[400px] lg:items-stretch'>
 
           {/* LEFT IMAGE */}
           <div className='lg:w-full h-full lg:rounded-l-3xl overflow-hidden'>

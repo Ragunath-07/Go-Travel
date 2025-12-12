@@ -27,7 +27,7 @@ function Home() {
   }, []);
 
   return (
-    <section className='mx-10 my-14 flex flex-col gap-5 items-center transition-all duration-500 scroll-mt-16 lg:flex lg:flex-row justify-center lg:items-center'
+    <section className='mx-5 my-14 flex flex-col gap-5 items-center transition-all duration-500 scroll-mt-16 lg:flex lg:flex-row justify-center lg:items-center'
       id='home'
     >
 
@@ -43,7 +43,7 @@ function Home() {
 
 
       {/* Slider */}
-      <div className="relative mt-5 overflow-hidden rounded-3xl max-w-lg max-h-fit sm:max-w-lg lg:max-w-xl">
+      <div className="relative mt-5 overflow-hidden rounded-3xl max-w-md max-h-fit sm:max-w-lg lg:max-w-xl">
 
         <div className="flex transition-transform duration-500 mt-5"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
