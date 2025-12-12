@@ -23,7 +23,7 @@ function NavBar() {
   }
 
   return (
-      <section className='relative bg-white text-black h-[60px] flex justify-between items-center px-5 shadow-md sticky top-0 z-50 transition-all duration-500'>
+      <section className='relative bg-white text-black h-[60px] flex justify-between items-center px-5 shadow-md sticky top-0 z-50 scroll-mt-16 transition-all duration-500'>
 
         <div className='font-bold flex items-center gap-1'>
 
